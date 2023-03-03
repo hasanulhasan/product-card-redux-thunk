@@ -12,7 +12,7 @@ const Product = ({ product }) => {
   const { id, name, category, img, price, quantity } = product
   return (
     <div class="lws-productCard">
-      <img class="lws-productImage" src="https://i.dummyjson.com/data/products/40/thumbnail.jpg" alt="product" />
+      <img class="lws-productImage" src={img} alt="product" />
       <div class="p-4 space-y-2">
         <h4 class="lws-productName">{name}</h4>
         <p class="lws-productCategory">{category}</p>

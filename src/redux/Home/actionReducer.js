@@ -2,22 +2,6 @@ import { ADDTOCART, DECREMENT, INCREMENT } from "../Cart/actionTypes"
 import { ADDPRODUCT } from "./actionTypes"
 
 const initialState = [
-  {
-    id: 1,
-    name: "Kalo Pant",
-    category: 'Pant',
-    img: 'img-url',
-    price: 345,
-    quantity: 2
-  },
-  {
-    id: 2,
-    name: "Lal Top",
-    category: 'Top',
-    img: 'img-url',
-    price: 246,
-    quantity: 6
-  }
 ]
 
 const nextTodoId = (todos) => {
